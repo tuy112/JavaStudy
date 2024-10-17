@@ -42,12 +42,17 @@ public class Student {
 	}
 	
 	// 7. Student 클래스에 main() 함수 추가
+	// 8. 인스턴스는 여러 개 생성 가능하다.
 	public static void main(String[] args) {
-		Student studentKim = new Student();
-		studentKim.studentName = "KimJay";
+		Student student1 = new Student();
+		Student student2 = new Student();
+		student1.studentName = "KimJay";
+		student2.studentName = "HongGilDong";
 		
 		// 똑같은 결과가 출력됨
-		System.out.println(studentKim.studentName);
-		System.out.println(studentKim.getStudentName());
+		System.out.println("학생들 :");
+		System.out.println(student1.studentName);
+		System.out.println(student1.getStudentName());
+		System.out.println(student2.studentName);
 	}
 }
