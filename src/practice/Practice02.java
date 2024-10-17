@@ -1,3 +1,12 @@
+
+/*
+ * 작성자: JH Kim
+ * 작성일: 2024년 10월 16일
+ * 설명: 연산자, 
+ * 		조건문 (if, if~else, if~else if~else, switch~case), 	
+ * 		반복문 (while, do~while, for)
+ */
+
 package practice;
 
 public class Practice02 {
@@ -94,11 +103,11 @@ public class Practice02 {
 		
 		System.out.println("=======================");
 		
-		// 1-8. 복합 대입 연산자 : 대입 연산자와 다른 연산자를 조홥해 하나의 연산자처럼 사용하는 연산자
+		// 1-8. 복합 대입 연산자 : 대입 연산자와 다른 연산자를 조합해 하나의 연산자처럼 사용하는 연산자
 		// +=
 		int num_ab = 2;
 		 num_ab += 2; 
-		 		 num_ab = num_ab + 2;
+		 num_ab = num_ab + 2;
 		
 		System.out.println("복합 대입 연산자?");
 		
