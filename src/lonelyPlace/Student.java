@@ -52,7 +52,7 @@ public class Student {
 		// 똑같은 결과가 출력됨
 		System.out.println("학생들 :");
 		System.out.println(student1.studentName);
-		System.out.println(student1.getStudentName());
+//		System.out.println(student1.getStudentName()); // kimJay가 출력됨
 		System.out.println(student2.studentName);
 	}
 }
