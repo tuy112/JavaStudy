@@ -12,8 +12,8 @@ package practice.practice05;
 public class Practice05 {
 
 	public static void main(String[] args) {
-		// Day4
-		System.out.println("Day4 공부시작");
+		// Day5
+		System.out.println("Day5 공부시작");
 		System.out.println("=======================");
 		
 		
