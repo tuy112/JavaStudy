@@ -8,7 +8,7 @@
  * 		Student 클래스 만들기 (Student.java 별도 파일)
  * 		
  */
-package practice04;
+package practice.practice04;
 
 // 클래스
 public class Practice04 {

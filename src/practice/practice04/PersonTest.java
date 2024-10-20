@@ -1,4 +1,4 @@
-package practice04;
+package practice.practice04;
 
 // 클래스
 public class PersonTest {
