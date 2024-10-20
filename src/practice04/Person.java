@@ -1,4 +1,4 @@
-package lonelyPlace.constructor;
+package practice04;
 
 public class Person {
 	String name;

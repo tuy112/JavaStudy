@@ -1,4 +1,4 @@
-package lonelyPlace.constructor;
+package practice04;
 
 // 클래스
 public class PersonTest {
