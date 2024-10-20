@@ -8,6 +8,11 @@ public class Student {
 	public int money;
 	
 	// 3. 생성자
+	public Student(String studentName, int money) {
+		this.studentName = studentName;
+		this.money = money;
+	}
+
 	// bus 클래스와 연결
 	public void takeBus(Bus bus) {
 		bus.take(1000);
